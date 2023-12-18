@@ -1,50 +1,56 @@
-h1{
-    font-family: 'Inter', sans-serif;
-    font-size: 49px;
-    line-height: 56px;
-    font-weight: normal;
-    margin-bottom: 32px;
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 32xp;
 }
 
-#hero{ 
+#hero {
     width: 592px;
-    margin: 0 auto 72px;
+    margin: 72px;
 }
 
-#hero img{
-    margin-top:72px;
+img {
+    margin: 100px;
 }
 
-body, p, a{
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
 
+
+h1 span {
+  font-weight: bold;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 span, a {
-    color: #FF9900;
+  color: #ff9900;
 }
 
-p, #footer{
-    color:#7D7987;
-    font-size:14px;
-    line-height: 28px;
+p, #footer {
+  color: #7d7987;
+  font-size: 14px;
+  text-align: center;
 }
 
-#footer a + a{
+#footer a + a {
     margin-left: 28px;
 }
 
 #line{
-    width: 578px;
-    height: 0px;
-    margin: auto;
-    border: 1px rgb(0, 0, 0) solid;
+  width: 578px;
+  height: 0px;
+  margin: auto;
+  border: 1px rgb(0, 0, 0) solid;
 }
 
-#balls{
-    position: fixed;
-    bottom:0px;
-    right: 0px;
-  
+#balls {
+  position: fixed;
+  bottom:0px;
+  right: 0px;
 }
